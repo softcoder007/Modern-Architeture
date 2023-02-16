@@ -227,5 +227,382 @@ body {
     font-weight: 500;
     font-size: 25px;
   }
+  /* facts section start  */
+
+.facts {
+    margin: 100px 150px;
+  }
+  
+  .facts-title {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  .facts-subtitle {
+    width: 65%;
+  }
+  
+  .fact-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .fact {
+    border: 1px solid #ff6347;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+    width: 245px;
+    transition: transform 2s;
+  }
+  
+  .fact:hover {
+    transform: rotate(-90deg);
+    border: 3px solid #ff6347;
+  }
+  
+  .fact-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  .fact-subtitle {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* sponsor section start  */
+  .sponsor-title {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .sponsor-subtitle {
+    width: 45%;
+    text-align: center;
+    margin: 15px auto;
+  }
+  
+  .sponsor-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 50px;
+  }
+  .sponsor-image {
+    width: 60%;
+  }
+  
+  .sponsor-image img {
+    width: 80%;
+  }
+  
+  /* contact us section start  */
+  .contact-us {
+    background-color: #fff4e7;
+  }
+  .contact-container {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .contact-title {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  .contact-description {
+    width: 85%;
+  }
+  
+  .media-icons i {
+    color: #ff9026;
+    font-size: 25px;
+    margin-right: 15px;
+  }
+  
+  .media-icons i:hover {
+    color: #ff6347;
+    cursor: pointer;
+  }
+  
+  .input-info {
+    display: block;
+    width: 450px;
+    height: 65px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 25px;
+    padding: 0 15px;
+  }
+  
+  .input-message {
+    display: block;
+    width: 450px;
+    height: 180px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 25px;
+    padding: 0 15px;
+  }
+  
+/* footer start  */
+footer {
+    margin: 100px auto;
+    background-color: #fff4e7;
+    width: 75%;
+    text-align: center;
+    padding: 10px;
+  }
+  /* responsive style start  */
+  
+  /* Styles for smaller device  */
+  @media screen and (max-width: 576px) {
+    /* header start */
+  
+    /* navbar start  */
+  
+    .nav-container {
+      flex-direction: column;
+      padding-bottom: 30px;
+    }
+  
+    .logo {
+      padding-left: 0;
+      margin-bottom: 30px;
+      font-size: 1.5em;
+    }
+  
+    .nav {
+      padding-right: 0;
+    }
+  
+    .nav ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .nav ul li {
+      margin-bottom: 15px;
+    }
+  
+    /* banner start  */
+  
+    .banner-title h4 {
+      font-size: 2em;
+    }
+  
+    .banner-subtitle span {
+      display: inline;
+      text-align: justify;
+    }
+  
+    /* about us section start  */
+    .about-us-container {
+      flex-direction: column;
+    }
+  
+    .about-us-image {
+      width: 80%;
+      grid-template-columns: repeat(1, 1fr);
+      padding-left: 0;
+      margin-bottom: 35px;
+    }
+  
+    .about-us-description {
+      width: 80%;
+    }
+  
+    .color-1,
+    .color-2,
+    .color-3 {
+      font-size: 1.5em;
+    }
+  
+    /* feature section start  */
+    .feature-container {
+      flex-direction: column;
+    }
+  
+    .feature-description {
+      width: 90%;
+    }
+  
+    .feature-image {
+      width: 90%;
+    }
+  
+    .feature-btn {
+      position: static;
+      margin-top: 25px;
+    }
+    .feature-2 {
+      display: block;
+      text-align: center;
+    }
+  
+    /* facts section start  */
+    .facts {
+      margin-left: 50px;
+      margin-right: 0;
+    }
+    .facts-subtitle {
+      width: 80%;
+    }
+    .fact-container {
+      grid-template-columns: repeat(1, 1fr);
+      margin-top: 50px;
+    }
+  
+    /* sponsor section start  */
+    .sponsor-subtitle {
+      width: 90%;
+    }
+    .sponsor-container {
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    /* contact us section start  */
+    .contact-container {
+      flex-direction: column;
+    }
+    .input-info {
+      width: 85%;
+    }
+    .input-message {
+      width: 85%;
+    }
+  
+    /* footer start  */
+    footer {
+      width: 100%;
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
+  }
+  
+  /* Styles for medium device  */
+  @media screen and (min-width: 577px) and (max-width: 991px) {
+    /* header start  */
+  
+    /* navbar start  */
+  
+    .nav-container {
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+  
+    .logo {
+      padding-left: 0;
+      margin-bottom: 30px;
+    }
+  
+    .nav {
+      padding-right: 0;
+    }
+  
+    /* banner start  */
+  
+    .banner-title h4 {
+      font-size: 2.5em;
+    }
+  
+    .banner-subtitle {
+      width: 75%;
+      margin: 30px auto;
+      display: block;
+    }
+  
+    /* about us section start  */
+    .about-us-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .about-us-image {
+      padding-left: 0;
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  
+    .about-us-description {
+      width: 50%;
+    }
+  
+    /* feature section start  */
+    .feature-container {
+      flex-direction: column-reverse;
+    }
+  
+    .feature-description {
+      width: 90%;
+      margin-top: 50px;
+    }
+  
+    .feature-image {
+      width: 90%;
+    }
+  
+    .feature-btn {
+      display: none;
+    }
+  
+    /* fact section start  */
+    .facts {
+      margin-left: 30px;
+    }
+    .facts-subtitle {
+      width: 90%;
+    }
+    .fact-container {
+      grid-template-columns: repeat(2, 1fr);
+      margin: 50px 80px;
+    }
+  
+    /* sponsor section start  */
+    .sponsor-subtitle {
+      width: 90%;
+    }
+    .sponsor-container {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 25px;
+    }
+  
+    /* contact us section start  */
+    .contact-title,
+    .contact-description,
+    .media-icons {
+      text-align: center;
+    }
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    /* footer start  */
+    footer {
+      width: 100%;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+  }
+  
   
   
