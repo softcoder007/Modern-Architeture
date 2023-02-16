@@ -102,3 +102,58 @@ body {
     margin-top: 35px;
     text-align: center;
   }
+  /* main start  */
+
+/* Our Feature section start  */
+
+.about-us {
+    margin: 85px auto;
+  }
+  
+  .about-us-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .about-us-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 40%;
+    padding-left: 100px;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+  }
+  
+  .about-us-description {
+    width: 40%;
+  }
+  
+  .about-us-subtitle {
+    text-align: justify;
+  }
+  
+  .about-us-title {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .color-1 {
+    color: #424242;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  
+  .color-2 {
+    font-family: 700;
+    font-size: 45px;
+  }
+  
+  .color-3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #ff9026;
+  }
