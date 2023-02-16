@@ -6,6 +6,28 @@ body {
   header {
     background-color: #fff4e7;
   }
+  .text-primary {
+    color: #727272;
+    font-weight: 400;
+  }
+  
+  .btn-primary {
+    background-color: #ff9026;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .btn-primary a {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff6347;
+  }
   
 .nav-container {
     display: flex;
@@ -44,4 +66,39 @@ body {
     font-weight: 500;
     font-size: 18px;
     color: #424242;
+  }
+  /* banner start  */
+
+.banner-title h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  
+  .banner-subtitle {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .banner-subtitle span {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .banner-image {
+    width: 70%;
+    margin: 50px auto;
+    padding-bottom: 50px;
+  }
+  
+  .banner-image img {
+    width: 100%;
+  }
+  
+  .banner-btn {
+    margin-top: 35px;
+    text-align: center;
   }
